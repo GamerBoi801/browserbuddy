@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Stack Manager",
+    "version": "1.0",
+    "description": "Organize your tabs into stacks and categorizes them for easy access.",
+    "permissions": ["tabs", "contextMenus", "storage"],
+    "background": {
+      "service_worker": "background/background.js"
+    },
+    "action": {
+      "default_popup": "popup/popup.html"
+    },
+    "options_ui": {
+      "page": "options/options.html",
+      "open_in_tab": true
+    }
+  }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab Stack Manager</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  
+  <div class="header">
+    <h1>Tab Stacks</h1>
+    <button id="clearStacks" class="clear-button">Clear All</button>
+  </div>
+  
+  <div class="settings">
+    <label class="retain-label">
+      <input type="checkbox" id="retainStacks"> Retain stacks after session
+    </label>
+  </div>
+  
+  <div id="stacks" class="stacks-container">
+    <!-- stacks will be dynamically added here -->
+  </div>
+  <script src="popup.js"></script>
+
+</body>
+</html>

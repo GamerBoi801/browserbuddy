@@ -1,0 +1,62 @@
+/* global styles for the extension */
+
+/* general body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* ensure the extension popup or options page is responsive and has some padding */
+.container {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* common button styles */
+button {
+    background-color: #007bff; /* blue background */
+    color: white; /* white text */
+    padding: 10px 20px; /* padding for better click area */
+    border: none; /* remove borders */
+    border-radius: 5px; /* rounded corners */
+    cursor: pointer; /* show pointer cursor */
+    transition: background-color 0.3s ease; /* smooth transition for background color */
+}
+
+/* button hover effect */
+button:hover {
+    background-color: #0056b3; /* darker blue when hovered */
+}
+
+/* header styling for better readability */
+h1, h3 {
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* make sure text fields and inputs are styled properly */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* links inside the extension */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* footer or other sections with extra spacing */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
